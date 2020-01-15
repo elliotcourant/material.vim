@@ -205,6 +205,9 @@ call s:HL('goTypeDecl', s:purple, '', '')
 call s:HL('goTypeName', s:yellow, '', '')
 call s:HL('goUnsignedInts', s:purple, '', '')
 call s:HL('goTypeConstructor', s:yellow, '', '')
+" This is for the actual const () stuff. Not the variables themselves.
+call s:HL('goConst', s:purple, '', '')
+call s:HL('goSingleDecl', s:orange, '', '')
 
 " JSON
 call s:HL('jsonBraces', s:gray5, '', '')
