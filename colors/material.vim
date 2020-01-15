@@ -17,6 +17,7 @@ let g:material_terminal_italics = get(g:, 'material_terminal_italics', 0)
 let g:material_theme_style = get(g:, 'material_theme_style', 'default')
 
 " Color Palette
+" This initial color is the background i believe.
 if g:material_theme_style == 'default'
   let s:gray1 = '#263238'
 elseif g:material_theme_style == 'palenight'
@@ -28,7 +29,8 @@ endif
 let s:gray2 = g:material_theme_style == 'dark' ? '#292929' : '#2c3a41'
 let s:gray3 = g:material_theme_style == 'dark' ? '#474646' : '#425762'
 let s:gray4 = g:material_theme_style == 'dark' ? '#6a6c6c' : '#658494'
-let s:gray5 = g:material_theme_style == 'dark' ? '#b7bdc0' : '#aebbc5'
+let s:gray5 = g:material_theme_style == 'dark' ? '#f1f2f3' : '#aebbc5'
+" let s:gray5 = g:material_theme_style == 'dark' ? '#b7bdc0' : '#aebbc5'
 let s:red = '#ff5370'
 let s:green = '#c3e88d'
 let s:yellow = '#ffcb6b'
